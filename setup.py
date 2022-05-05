@@ -12,6 +12,8 @@ setup(
     # packages=find_packages(exclude=['docs', 'tests*']),
     keywords=['binary', 'Pretty print', 'Python', 'Hex dump', 'Ascii dump', 'hex', 'dump'],
     python_requires='>=3',
+    package_dir={'': 'src'},
+    packages=['binprint'],
     package_data={},
     zip_safe=False,
     classifiers=[
